@@ -1,0 +1,22 @@
+h3{
+    font-size: 23px !important;
+}
+.btn-success:hover{
+    background-color: rgb(190, 138, 238);
+}
+canvas{
+    animation-name: lights;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes lights{
+    from{
+        box-shadow:1px 1px 38px rgb(255, 0, 191);
+    }
+    to{
+        box-shadow:1px 1px 38px rgb(64, 30, 255);
+    }
+}
+to{
+    box-shadow:1px 1px 38px rgb(21, 155, 21);
+}
